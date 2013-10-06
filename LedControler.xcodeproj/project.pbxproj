@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A364B117FBC26000784967 /* XLightListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A364B017FBC26000784967 /* XLightListController.m */; };
+		04A401511801345500637F94 /* XLightActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A401501801345500637F94 /* XLightActionViewController.m */; };
 		04B144CB17F912B700869DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B144CA17F912B700869DED /* Foundation.framework */; };
 		04B144CD17F912B700869DED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B144CC17F912B700869DED /* CoreGraphics.framework */; };
 		04B144CF17F912B700869DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B144CE17F912B700869DED /* UIKit.framework */; };
@@ -22,6 +24,9 @@
 		04B144EC17F912B800869DED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B144D017F912B700869DED /* CoreData.framework */; };
 		04B144F417F912B800869DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B144F217F912B800869DED /* InfoPlist.strings */; };
 		04B144F617F912B800869DED /* LedControlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B144F517F912B800869DED /* LedControlerTests.m */; };
+		04B1450117F9138B00869DED /* XStartUpControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1450017F9138B00869DED /* XStartUpControler.m */; };
+		04B1450417F9155A00869DED /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1450317F9155A00869DED /* Palette.m */; };
+		04B1450617F91AB900869DED /* 全色.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B1450517F91AB900869DED /* 全色.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A364AF17FBC26000784967 /* XLightListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLightListController.h; sourceTree = "<group>"; };
+		04A364B017FBC26000784967 /* XLightListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLightListController.m; sourceTree = "<group>"; };
+		04A4014F1801345500637F94 /* XLightActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLightActionViewController.h; sourceTree = "<group>"; };
+		04A401501801345500637F94 /* XLightActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLightActionViewController.m; sourceTree = "<group>"; };
 		04B144C717F912B700869DED /* LedControler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedControler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B144CA17F912B700869DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04B144CC17F912B700869DED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,11 @@
 		04B144F117F912B800869DED /* LedControlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LedControlerTests-Info.plist"; sourceTree = "<group>"; };
 		04B144F317F912B800869DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04B144F517F912B800869DED /* LedControlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LedControlerTests.m; sourceTree = "<group>"; };
+		04B144FF17F9138B00869DED /* XStartUpControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XStartUpControler.h; sourceTree = "<group>"; };
+		04B1450017F9138B00869DED /* XStartUpControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XStartUpControler.m; sourceTree = "<group>"; };
+		04B1450217F9155A00869DED /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		04B1450317F9155A00869DED /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
+		04B1450517F91AB900869DED /* 全色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "全色.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +129,20 @@
 		04B144D217F912B700869DED /* LedControler */ = {
 			isa = PBXGroup;
 			children = (
+				04B1450517F91AB900869DED /* 全色.png */,
+				04B1450217F9155A00869DED /* Palette.h */,
+				04B1450317F9155A00869DED /* Palette.m */,
 				04B144DB17F912B700869DED /* XAppDelegate.h */,
 				04B144DC17F912B700869DED /* XAppDelegate.m */,
 				04B144E117F912B700869DED /* Images.xcassets */,
 				04B144DE17F912B700869DED /* LedControler.xcdatamodeld */,
 				04B144D317F912B700869DED /* Supporting Files */,
+				04B144FF17F9138B00869DED /* XStartUpControler.h */,
+				04B1450017F9138B00869DED /* XStartUpControler.m */,
+				04A364AF17FBC26000784967 /* XLightListController.h */,
+				04A364B017FBC26000784967 /* XLightListController.m */,
+				04A4014F1801345500637F94 /* XLightActionViewController.h */,
+				04A401501801345500637F94 /* XLightActionViewController.m */,
 			);
 			path = LedControler;
 			sourceTree = "<group>";
@@ -229,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B1450617F91AB900869DED /* 全色.png in Resources */,
 				04B144D717F912B700869DED /* InfoPlist.strings in Resources */,
 				04B144E217F912B700869DED /* Images.xcassets in Resources */,
 			);
@@ -250,8 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B144E017F912B700869DED /* LedControler.xcdatamodeld in Sources */,
+				04B1450417F9155A00869DED /* Palette.m in Sources */,
+				04A401511801345500637F94 /* XLightActionViewController.m in Sources */,
+				04B1450117F9138B00869DED /* XStartUpControler.m in Sources */,
 				04B144D917F912B700869DED /* main.m in Sources */,
 				04B144DD17F912B700869DED /* XAppDelegate.m in Sources */,
+				04A364B117FBC26000784967 /* XLightListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LedControler/LedControler-Prefix.pch";
 				INFOPLIST_FILE = "LedControler/LedControler-Info.plist";
@@ -383,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LedControler/LedControler-Prefix.pch";
 				INFOPLIST_FILE = "LedControler/LedControler-Info.plist";
@@ -452,6 +482,7 @@
 				04B144FB17F912B800869DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B144FC17F912B800869DED /* Build configuration list for PBXNativeTarget "LedControlerTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +491,7 @@
 				04B144FE17F912B800869DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

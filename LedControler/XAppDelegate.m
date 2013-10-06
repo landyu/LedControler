@@ -7,6 +7,7 @@
 //
 
 #import "XAppDelegate.h"
+#import "XStartUpControler.h"
 
 @implementation XAppDelegate
 
@@ -20,6 +21,14 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+   
+    XStartUpControler *startUpControler = [[XStartUpControler alloc] init];
+     //UINavigationController *navigtion = [[UINavigationController alloc]initWithRootViewController:startUpControler];
+    self.window.rootViewController = startUpControler;
+    
+    //[startUpControler release];
+    
+    
     return YES;
 }
 
